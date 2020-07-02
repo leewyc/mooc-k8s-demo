@@ -1,4 +1,4 @@
-FROM tomcat:8.0.51-alpine
+FROM tomcat
 
 COPY ROOT /usr/local/tomcat/webapps/ROOT
 
